@@ -29,7 +29,7 @@ header a  {
 
 }
 
-nav ul {
+.menu {
     display: flex;
     flex-direction: row;
     margin: 2rem;
@@ -38,4 +38,13 @@ nav ul {
 
 .sub-menu {
     margin: 1rem;
+}
+
+
+
+@media  screen and (max-width: 800px) {
+    .menu {
+        /* flex-direction: column; */
+        display: none;
+    }
 }
